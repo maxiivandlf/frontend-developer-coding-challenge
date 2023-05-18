@@ -1,0 +1,25 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 70px;
+}
+
+.products_title {
+  background: var(--brand-defautl);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+}
+.products_title span {
+  background: var(--neutral-900);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.products_filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

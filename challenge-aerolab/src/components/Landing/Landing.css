@@ -1,0 +1,98 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100vw;
+}
+.landing_top {
+  display: flex;
+  background-image: url(../../../public/assets/illustrations/single-wave-pattern.svg);
+  margin-top: 100px;
+  height: 100%;
+  max-width: 1316px;
+  justify-content: space-evenly;
+}
+
+.landing-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  z-index: 9;
+  width: 50%;
+}
+.landing-titles h5 {
+  font-size: 1rem;
+  margin: 0;
+  color: var(--neutral-600);
+}
+.landing-titles h1 {
+  background: var(--brand-defautl);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 80%;
+  font-size: 150px;
+  letter-spacing: 0%;
+  font-weight: 900;
+  margin: 0;
+}
+.landing-titles h1 span {
+  background: var(--neutral-900);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.landing-titles p {
+  font-size: 1rem;
+  margin: 0;
+  width: 50%;
+  color: var(--neutral-600);
+  font-weight: 600;
+}
+
+.btn-allProducts {
+  margin-top: 15px;
+  text-decoration: none;
+  color: var(--neutral-300);
+  background: var(--brand-defautl);
+  padding: 15px 15px;
+  border-radius: 24px;
+  font-weight: 600;
+}
+
+.hero-desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  position: relative;
+}
+.ilustrationBG {
+  position: relative;
+  background: linear-gradient(
+    102.47deg,
+    rgba(23, 111, 235, 0.5) -5.34%,
+    rgba(255, 128, 255, 0.5) 106.58%
+  );
+  border-radius: 104px;
+  width: 500px;
+  height: 400px;
+  z-index: 90;
+}
+.hero-img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 500px;
+  height: 600px;
+  z-index: 90;
+}
+
+.WaltkthroudCards {
+  background: var(--specials-section-BG);
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 32px;
+}
