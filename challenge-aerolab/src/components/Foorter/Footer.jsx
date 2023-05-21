@@ -1,7 +1,9 @@
 function Footer() {
   return (
     <footer className='footer'>
-      <a href=''> GitHub Maxi</a>
+      <a href='https://github.com/maxiivandlf' target='_blanck'>
+        GitHub Maxi
+      </a>
     </footer>
   );
 }

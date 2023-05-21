@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Navbar from './Navbar/Navbar';
 import WalkthCard from './WaltkthroudCard/WalkthroudCard';
 
@@ -23,18 +24,29 @@ function Landing() {
         </div>
         <div className='hero-desktop'>
           <div className='ilustrationBG'>
-            <img
+            <Image
               className='hero-img'
-              src='./assets/illustrations/hero-desktop.png'
+              src={'/assets/illustrations/hero-desktop.png'}
               alt='hero-desktop'
+              width={500}
+              height={600}
             />
           </div>
         </div>
       </div>
       <section className='WaltkthroudCards'>
-        <WalkthCard />
-        <WalkthCard />
-        <WalkthCard />
+        <WalkthCard
+          src={'./assets/illustrations/walkthroug-1-desktop.png'}
+          title={'1 - BROWSE'}
+        />
+        <WalkthCard
+          src={'./assets/illustrations/walkthroug-2-desktop.png'}
+          title={'2 - CHOSE'}
+        />
+        <WalkthCard
+          src={'./assets/illustrations/walkthroug-3-desktop.png'}
+          title={'3 - ENJOY'}
+        />
       </section>
     </section>
   );

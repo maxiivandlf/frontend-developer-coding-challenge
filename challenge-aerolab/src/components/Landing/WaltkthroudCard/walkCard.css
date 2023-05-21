@@ -1,7 +1,7 @@
 .intro_card {
   width: 200px;
   border: 5px solid var(--neutral-300);
-  border-radius: 32px;
+  border-radius: 38px;
 }
 .intro_img {
   background: var(--specials-section-BG);

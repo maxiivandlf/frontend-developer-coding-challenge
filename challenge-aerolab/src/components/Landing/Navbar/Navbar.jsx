@@ -1,3 +1,4 @@
+import Aerocoin from './AoeroCoin/AeroCoin';
 import './navbar.css';
 
 function Navbar() {
@@ -6,13 +7,8 @@ function Navbar() {
       <picture className='logo'>
         <img src='./assets/icons/aerolab-logo-1.svg' alt='' />
       </picture>
-      <div>
-        <select name='credits' id='credis'>
-          <option value=''>Tarjeta</option>
-          <option value=''>Creditos</option>
-          <option value=''>Btn</option>
-        </select>
-      </div>
+
+      <Aerocoin />
     </nav>
   );
 }

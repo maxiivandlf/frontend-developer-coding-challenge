@@ -10,7 +10,7 @@
   background-image: url(../../../public/assets/illustrations/single-wave-pattern.svg);
   margin-top: 100px;
   height: 100%;
-  max-width: 1316px;
+  max-width: 980px;
   justify-content: space-evenly;
 }
 
@@ -53,7 +53,7 @@
 .btn-allProducts {
   margin-top: 15px;
   text-decoration: none;
-  color: var(--neutral-300);
+  color: var(--neutral-100);
   background: var(--brand-defautl);
   padding: 15px 15px;
   border-radius: 24px;
@@ -84,12 +84,11 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
-  width: 500px;
-  height: 600px;
   z-index: 90;
 }
 
 .WaltkthroudCards {
+  width: 100%;
   background: var(--specials-section-BG);
   display: flex;
   justify-content: center;

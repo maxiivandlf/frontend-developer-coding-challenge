@@ -1,0 +1,90 @@
+.aero-coins {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.coins-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iconChev {
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+/* css menu */
+.menu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border: 2px solid var(--neutral-300);
+  padding: 0;
+  border-radius: 16px;
+  gap: 2px;
+  position: absolute;
+  background: var(--neutral-200);
+  top: 70px;
+}
+
+.menu_title {
+  padding: 10px;
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+.menu_Card {
+  padding: 10px;
+}
+.card {
+  padding: 10px;
+  background-color: var(--neutral-900);
+  border-radius: 8px;
+  width: 264px;
+  height: 148px;
+}
+
+.menu_buttons {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.menu_buttons a {
+  background: var(--brand-defautl);
+  border-radius: 16px;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--neutral-300);
+}
+.menu_buttons a:nth-child(1) {
+  background: var(--neutral-300);
+}
+.menu_buttons a:nth-child(3) {
+  background: var(--neutral-300);
+}
+.btn-text-color {
+  background: var(--brand-defautl);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.button_add_points {
+  padding: 5px 5px;
+  display: block;
+  background: var(--brand-defautl);
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.btn-add {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--neutral-100);
+}
