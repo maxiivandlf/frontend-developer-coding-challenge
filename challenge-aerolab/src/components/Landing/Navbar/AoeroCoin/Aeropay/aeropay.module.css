@@ -1,0 +1,74 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border: 2px solid var(--neutral-300);
+  padding: 0;
+  border-radius: 16px;
+  gap: 2px;
+  position: absolute;
+  background: var(--neutral-200);
+  top: 70px;
+}
+
+.menuTitle {
+  padding: 10px;
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+.menuCard {
+  padding: 10px;
+}
+.card {
+  padding: 10px;
+  background-color: var(--neutral-900);
+  border-radius: 8px;
+  width: 264px;
+  height: 148px;
+}
+
+.menuButtons {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.menuButtons a {
+  background: var(--brand-defautl);
+  border-radius: 16px;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--neutral-300);
+}
+.menuButtons a:nth-child(1) {
+  background: var(--neutral-300);
+}
+.menuButtons a:nth-child(3) {
+  background: var(--neutral-300);
+}
+.btnTextColor {
+  background: var(--brand-defautl);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.buttonAddPoints {
+  padding: 5px 5px;
+  display: block;
+  background: var(--brand-defautl);
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.btnAdd {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--neutral-100);
+}
