@@ -86,12 +86,3 @@
   bottom: 0;
   z-index: 90;
 }
-
-.WaltkthroudCards {
-  width: 100%;
-  background: var(--specials-section-BG);
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-  margin-top: 32px;
-}

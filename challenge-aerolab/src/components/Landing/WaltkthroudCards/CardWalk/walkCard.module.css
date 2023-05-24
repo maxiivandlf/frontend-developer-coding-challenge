@@ -1,0 +1,64 @@
+.introCard {
+  position: absolute;
+  bottom: -20px;
+  width: 260px;
+  border: 5px solid var(--neutral-300);
+  border-radius: 38px;
+}
+
+.introCard:nth-child(1) {
+  transform: rotate(-3deg);
+}
+.introCard:nth-child(2) {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.introCard:nth-child(3) {
+  right: 0;
+  transform: rotate(3deg);
+}
+
+.introImg {
+  background: var(--specials-illustration-BG);
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+}
+.imgCard {
+  width: 100%;
+}
+.bottomCard {
+  height: 85px;
+  padding: 5px;
+  background: var(--neutral-100);
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+}
+.iconTitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 40px;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.iconTitle h3 {
+  background: var(--brand-defautl);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.iconTitle img {
+  width: 30px;
+}
+.bottomCard p {
+  width: 80%;
+  padding: 5px;
+  font-size: 10px;
+  margin: 15px;
+  margin: 0;
+  word-wrap: break-word;
+  text-align: left;
+}

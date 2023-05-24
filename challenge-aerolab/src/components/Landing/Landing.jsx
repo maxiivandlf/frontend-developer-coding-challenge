@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Navbar from './Navbar/Navbar';
-import WalkthCard from './WaltkthroudCard/WalkthroudCard';
+import WalkthCards from './WaltkthroudCards/WalkthroudCards';
 
 import './Landing.css';
 
@@ -34,20 +34,7 @@ function Landing() {
           </div>
         </div>
       </div>
-      <section className='WaltkthroudCards'>
-        <WalkthCard
-          src={'./assets/illustrations/walkthroug-1-desktop.png'}
-          title={'1 - BROWSE'}
-        />
-        <WalkthCard
-          src={'./assets/illustrations/walkthroug-2-desktop.png'}
-          title={'2 - CHOSE'}
-        />
-        <WalkthCard
-          src={'./assets/illustrations/walkthroug-3-desktop.png'}
-          title={'3 - ENJOY'}
-        />
-      </section>
+      <WalkthCards />
     </section>
   );
 }
