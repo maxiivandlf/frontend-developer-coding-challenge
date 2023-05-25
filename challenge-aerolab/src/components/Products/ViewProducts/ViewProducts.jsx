@@ -10,12 +10,10 @@ const option = {
   },
 };
 
-console.log(process.env.API_TOKEN);
-
 const url = 'https://coding-challenge-api.aerolab.co/products';
 
 async function getData() {
-  const res = await fetch(url, option);
+  const res = await fetch(url, option, { cache: 'no-store' });
   return res.json();
 }
 
