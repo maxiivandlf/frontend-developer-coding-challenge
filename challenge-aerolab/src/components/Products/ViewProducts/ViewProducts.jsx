@@ -6,9 +6,11 @@ const option = {
   headers: {
     'Content-Type': 'application/json',
     Accept: 'application/json',
-    Authorization: `Bearer ${process.env.NEXT_PUBLIC_API_TOKEN}`,
+    Authorization: `Bearer ${process.env.API_TOKEN}`,
   },
 };
+
+console.log(process.env.API_TOKEN);
 
 const url = 'https://coding-challenge-api.aerolab.co/products';
 
