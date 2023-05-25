@@ -15,6 +15,7 @@ function Controls() {
       <div className={styles.pages}>
         <a>
           <Image
+            alt='icon'
             className={styles.leftArrow}
             src={'./assets/icons/chevron-active.svg'}
             width={20}
@@ -24,6 +25,7 @@ function Controls() {
         <a>Page 1 of 2</a>
         <a>
           <Image
+            alt='icon'
             src={'./assets/icons/chevron-active.svg'}
             width={20}
             height={20}

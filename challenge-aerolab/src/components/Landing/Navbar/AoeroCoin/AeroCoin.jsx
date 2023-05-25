@@ -5,7 +5,7 @@ const option = {
   headers: {
     'Content-Type': 'application/json',
     Accept: 'application/json',
-    Authorization: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDY0ZWI0NGQ2ZTU4NDAwMWE4NTZhZWYiLCJpYXQiOjE2ODQzMzU0Mjh9.zq0NiLBTQWG7D9foayDwXEMGgd96-XZgksbV_FmORq0`,
+    Authorization: `Bearer ${process.env.NEXT_PUBLIC_API_TOKEN}`,
   },
 };
 
