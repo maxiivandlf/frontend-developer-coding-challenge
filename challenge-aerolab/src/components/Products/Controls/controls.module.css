@@ -4,6 +4,7 @@
   justify-content: center;
   font-size: 18px;
   gap: 10px;
+  margin-left: 15px;
 }
 
 .sorted a {
@@ -24,4 +25,22 @@
 .sorted .selectd {
   background: var(--brand-defautl);
   color: var(--neutral-100);
+}
+
+.pages {
+  display: flex;
+  margin-left: 15px;
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--neutral-300);
+  gap: 10px;
+  cursor: pointer;
+}
+
+.pages a {
+  text-decoration: none;
+}
+
+.leftArrow {
+  transform: rotate(180deg);
 }

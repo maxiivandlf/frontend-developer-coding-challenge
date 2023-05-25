@@ -1,20 +1,34 @@
-import './controls.css';
+import styles from './controls.module.css';
+import Image from 'next/image';
 
 function Controls() {
   return (
     <>
-      <div className='sorted'>
+      <div className={styles.sorted}>
         <p>Sortd by:</p>
-        <a className='selectd' href=''>
+        <a className={styles.selectd} href=''>
           Most Recent
         </a>
         <a href=''>Lowest Price</a>
         <a href=''>Highest Price</a>
       </div>
-      <div className='pages'>
-        <a href=''>&lArr;</a>
-        <a href=''>Page 1 of 2</a>
-        <a href=''>&rArr;</a>
+      <div className={styles.pages}>
+        <a>
+          <Image
+            className={styles.leftArrow}
+            src={'./assets/icons/chevron-active.svg'}
+            width={20}
+            height={20}
+          />
+        </a>
+        <a>Page 1 of 2</a>
+        <a>
+          <Image
+            src={'./assets/icons/chevron-active.svg'}
+            width={20}
+            height={20}
+          />
+        </a>
       </div>
     </>
   );
