@@ -1,14 +1,18 @@
 import Image from 'next/image';
 import Style from './aeropay.module.css';
+import CardCredit from './CardCredit/CardCredit';
 
-function Aeropay() {
+function Aeropay(props) {
   return (
     <ul className={Style.menu}>
-      <li className={Style.menu_title}>
+      <li className={Style.menuTitle}>
         <h3>Add Balance</h3>
       </li>
       <li className={Style.menuCard}>
-        <div className={Style.card}>hola</div>
+        <CardCredit
+          icon={'./assets/icons/aeropay-2.svg'}
+          name={props.user[1]}
+        />
       </li>
       <li className={Style.menuButtons}>
         <a>

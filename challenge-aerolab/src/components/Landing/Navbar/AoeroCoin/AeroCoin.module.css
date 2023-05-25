@@ -1,0 +1,25 @@
+.aeroCoins {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border: 2px solid var(--neutral-300);
+  padding: 0 16px;
+  border-radius: 16px;
+  margin-top: 5px;
+}
+.coinsHead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.amount {
+  background: var(--brand-defautl);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.iconChev {
+  transform: rotate(90deg);
+  cursor: pointer;
+}
